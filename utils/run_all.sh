@@ -8,7 +8,7 @@ echo "ALGORITMO,NPROC,QUANTUM,RODADA,TME" > $ARQUIVO_SAIDA
 
 # Definindo os parâmetros pedidos na atividade
 # AJUSTE OS NOMES ABAIXO PARA OS EXECUTÁVEIS CORRETOS DO SEU GRUPO!
-ALGORITMOS=("../main_fifo" "../main_ljf" "../main_prio_static" "../main_prio_dynamic_quantum")
+ALGORITMOS=("../main_fifo" "../main_sjf" "../main_ljf" "../main_prio_static" "../main_prio_dynamic_quantum")
 QUANTUMS=(10 20 30)
 NPROCS=(10 20 30 40 50 60 70 80 90 100)
 RODADAS=30
